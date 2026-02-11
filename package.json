@@ -1,20 +1,24 @@
 {
-  "name": "kyrcov",
+  "name": "vanilla-app-template",
   "private": true,
   "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "npx vite build",
+    "build": "vite build --base=/kyrcov/",
     "preview": "vite preview"
   },
   "devDependencies": {
-    "vite": "^5.4.6",
     "glob": "^11.0.0",
     "postcss": "^8.4.41",
-    "postcss-sort-media-queries": "^5.2.0"
+    "postcss-sort-media-queries": "^5.2.0",
+    "sass-embedded": "^1.97.3",
+    "vite": "^5.4.6"
   },
+  "author": "Ernest Sosnovskyi <e.sosnovskyi@student.neoversity.com.ua>",
+  "license": "ISC",
   "dependencies": {
+    "modern-normalize": "^3.0.1",
     "vite-plugin-full-reload": "^1.2.0",
     "vite-plugin-html-inject": "^1.1.2"
   }
