@@ -3,10 +3,12 @@
   "private": true,
   "version": "1.0.0",
   "type": "module",
-  "scripts": {
-    "dev": "vite",
-    "build": "npx vite build --base=/kyrcov/",
-    "preview": "vite preview"
+   "scripts": {
+  "dev": "vite",
+  "build": "npm exec vite build -- --base=/kyrcov.github.io/",
+  "preview": "vite preview"
+  }
+  
   },
   "devDependencies": {
     "glob": "^11.0.0",
