@@ -1,17 +1,17 @@
-import trashIcon from '../images/icons/trash.svg';
-import starOrangeIcon from '../images/icons/star-orange.svg';
-import starGreyIcon from '../images/icons/star-grey.svg';
-import arrowRightIcon from '../images/icons/arrow-right.svg';
-import runningManLightIcon from '../images/icons/running-man-light.svg';
-import xLightIcon from '../images/icons/x-light.svg';
-import heartDarkIcon from '../images/icons/heart-dark.svg';
-import heartFilledDarkIcon from '../images/icons/heart-filled-dark.svg';
-import chevronLeftDark from '../images/icons/chevron-left-dark.svg';
-import chevronLeftLight from '../images/icons/chevron-left-light.svg';
-import chevronDoubleLeftDark from '../images/icons/chevron-double-left-dark.svg';
-import chevronDoubleLeftLight from '../images/icons/chevron-double-left-light.svg';
+import trashIcon from '../images/svg/trash.svg';
+import starOrangeIcon from '../images/svg/star-orange.svg';
+import starGreyIcon from '../images/svg/star-grey.svg';
+import arrowRightIcon from '../images/svg/arrow-right.svg';
+import runningManLightIcon from '../images/svg/running-man-light.svg';
+import xLightIcon from '../images/svg/x-light.svg';
+import heartDarkIcon from '../images/svg/heart-dark.svg';
+import heartFilledDarkIcon from '../images/svg/heart-filled-dark.svg';
+import chevronLeftDark from '../images/svg/chevron-left-dark.svg';
+import chevronLeftLight from '../images/svg/chevron-left-light.svg';
+import chevronDoubleLeftDark from '../images/svg/chevron-double-left-dark.svg';
+import chevronDoubleLeftLight from '../images/svg/chevron-double-left-light.svg';
 
-export const icons = {
+export const svg = {
   trash: trashIcon,
   starOrange: starOrangeIcon,
   starGrey: starGreyIcon,
