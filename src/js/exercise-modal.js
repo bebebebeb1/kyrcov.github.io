@@ -7,7 +7,7 @@ import {
   getFavorites,
 } from './favorites.js';
 import { openRatingModal } from './rating-modal.js';
-import { icons } from './icons.js';
+import { icons } from './svg.js';
 
 let backdropEl;
 
@@ -50,11 +50,11 @@ export async function openModal(id) {
         if (isFavorite(id)) {
           removeFavorite(id);
           if (textEl) textEl.textContent = 'Add to favorites';
-          if (iconEl) iconEl.src = icons.heartDark;
+          if (iconEl) iconEl.src = svg.heartDark;
         } else {
           addFavorite(exercise);
           if (textEl) textEl.textContent = 'Remove';
-          if (iconEl) iconEl.src = icons.heartFilledDark;
+          if (iconEl) iconEl.src = svg.heartFilledDark;
         }
         const favList = document.querySelector('.favorites-list');
         if (favList && document.querySelector('.favorites')) {
