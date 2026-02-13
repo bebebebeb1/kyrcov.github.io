@@ -1,4 +1,4 @@
-import { icons } from './icons.js';
+import { icons } from './svg.js';
 
 export function renderPagination(
   containerEl,
