@@ -1,4 +1,4 @@
-import { icons } from './icons.js';
+import { icons } from './svg.js';
 
 export function filterCardMarkup({ name, filter, imgURL }) {
   return `<li class="exercise-card" data-name="${name}" data-filter="${filter}">
