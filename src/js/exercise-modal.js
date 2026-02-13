@@ -7,7 +7,7 @@ import {
   getFavorites,
 } from './favorites.js';
 import { openRatingModal } from './rating-modal.js';
-import { svg } from './svg.js';
+import { icons } from './svg.js';
 
 let backdropEl;
 
