@@ -1,6 +1,6 @@
 import { patchExerciseRating } from './api.js';
 import { ratingModalMarkup } from './markup.js';
-import { icons } from './icons.js';
+import { icons } from './svg.js';
 
 let backdropEl;
 
